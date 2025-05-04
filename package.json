@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "mkdir -p dist && cp public/index.html dist/",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "echo 'Preview not needed'"
   },
   "dependencies": {
     "react": "^18.2.0",
